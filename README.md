@@ -97,6 +97,7 @@ VITE_APPWRITE_ENDPOINT=YOUR_APPWRITE_ENDPOINT
 ```bash
 npm run dev
 ```
+---
 
 ## 📖 How It Works
 
@@ -107,6 +108,51 @@ npm run dev
 * Trending movies are displayed based on search analytics.
 
 ---
+
+## 🌐 Live Demo
+
+🔗 **Website:** https://movifi.vercel.app/
+
+---
+
+## 🚀 Deployment
+
+This project can be deployed easily on **Vercel**.
+
+### Deploy on Vercel
+
+1. Push your project to GitHub.
+2. Sign in to Vercel.
+3. Import the GitHub repository.
+4. Add the required environment variables:
+
+   ```env
+   VITE_TMDB_API_KEY=YOUR_TMDB_API_KEY
+   VITE_APPWRITE_PROJECT_ID=YOUR_PROJECT_ID
+   VITE_APPWRITE_DATABASE_ID=YOUR_DATABASE_ID
+   VITE_APPWRITE_COLLECTION_ID=YOUR_COLLECTION_ID
+   VITE_APPWRITE_ENDPOINT=YOUR_APPWRITE_ENDPOINT
+   ```
+5. Click **Deploy**.
+
+Once deployment is complete, Vercel will generate a live URL for your application.
+
+---
+
+### Build Locally
+
+```bash
+npm run build
+```
+
+### Preview the Production Build
+
+```bash
+npm run preview
+```
+
+---
+
 
 ## 👨‍💻 Author
 
