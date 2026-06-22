@@ -86,22 +86,12 @@ function App() {
 
       <div className='wrapper'>
         <header>
+          <img src='./Logo.svg' alt='Logo' className='w-24 h-auto'/>
           <img src='./hero.png' alt='Hero Banner' />
           <h1>Find <span className='text-gradient'>Movies</span> You'll Enjoy Without the Hassel</h1>
           <Search searchTerm={searchTerm} setsearchTerm={setsearchTerm}></Search>
         </header>
-        {/* 
-        {trendingmovies.length>0 && <section className='trending'>
-          <h2>Trending Movies</h2>
-          
-          <ul>
-            {trendingmovies.map((movie,index)=>(
-              <li key={movie.$id}>
-                <p>{index+1}</p>
-                <img src={movie.poster_url} alt={movie.poster_url}/>
-              </li>
-            ))}</ul></section>} */}
-
+        
         <section className='trending'>
           <h2>Trending Movies</h2>
 
